@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+  </head>
+  <body>
+    <h1>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REGISTRATION FORM
+    </h1>
+    <p>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Please fill out the form below carefully to register.
+    </p>
+    <br />
+    <form action="backend.php" method="get">
+      <div>
+        <label for="fname">Student Name</label> <br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter your first name"
+        />&nbsp;
+        <label for="lname"></label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter your last name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="gender">&nbsp;Gender</label> <br />
+        <input type="radio" name="gender" value="male" />Male <br />
+        <input type="radio" name="gender" value="female" />Female
+        <br />
+        <input type="radio" name="gender" value="others" />Others
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Enter DOB&nbsp;</label> <br />
+        <input type="date" id="birthday" />
+      </div>
+      <br />
+      <div>
+        <label for="contact">Contact Number</label><br />
+        <input type="number" id="contact" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email Address</label><br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="ex:&nbsp;abc@gmail.com "
+        />
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" />I hereby declare that all the information
+        submited is true.
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Sumbit" />
+      </div>
+    </form>
+  </body>
+</html>
